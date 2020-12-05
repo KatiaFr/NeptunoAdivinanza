@@ -1,0 +1,79 @@
+body { 
+      background-color: whitesmoke;
+}
+/* estilos y formatos de textos y letras */
+
+p, table, li {
+      font-size:95%;
+}
+
+/* código de la parte superior que entra en el header: */
+
+header, h1 {
+  color: rgb(19, 34, 97);
+
+}
+/*formato en los links del menu ------ */
+menu {
+  margin-right: 10px;
+}
+
+/* estilo de la tabla: */
+
+table, th, td {
+  border: none;
+  text-align: center;
+ padding: 1px;
+}
+th {
+background-image: linear-gradient(to top, rgba(253, 91, 172, 0.624), rgba(255, 56, 155, 0.802));    
+}
+
+
+  /*código del footer:----------------- */
+footer {
+       display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+      padding: 2%;
+      min-height: 50px;
+  box-shadow: -1px -5px 10px rgba(148, 159, 201, 0.665);
+background-color: grey;
+}
+  footer >h3 {
+    color: white;
+    text-align: center;
+}
+
+/*línea-borde que divide cada artículo del siguiente */
+article {
+      border-bottom: 2px solid gray;
+      padding: 4%;
+}    
+/*formato de imágenes*/
+
+/*imágenes en general*/
+ article > img {
+      width: 100%;
+}
+  
+/*imágenes hijas del aside*/
+aside > img {
+width: 100%;
+ }
+
+#mainPage2 img {
+  width: 100%;
+}
+
+/*intentos y pistas */
+#tusIntentos1, #tusIntentos2, #tusIntentos3 {
+  color: rgb(181, 41, 10);
+}
+
+#pistas1 {
+  color: rgb(61, 167, 0);
+}
+#pistas2 {
+  color: rgb(49, 16, 169);
+}
